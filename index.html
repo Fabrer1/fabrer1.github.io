@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Territorium</title>
+
+    <style>
+        * {
+            font-family: "Source Sans Pro";
+            margin: 0;
+
+        }
+
+        .bloque-superior {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #logotipo-sena {
+            width: 7.2em;
+            height: auto;
+            margin-top: 0.2em;
+            margin-right: 6em;
+        }
+
+        #logotipo-microsoft {
+            width: 12em;
+            height: 6.2em;
+            margin-top: 1em;
+            margin-left: 2em;
+        }
+
+        .bloque-superior__texto-microsoft {
+            align-items: center;
+        }
+
+        .bloque-separador {
+            background-color: #ff8138;
+            padding: 0.399em;
+        }
+
+        .login-form__fondo-element {
+            background-image: url(/img/login-home__fondo-div.png);
+            height: 35.5em;
+            width: 100%;
+            background-position: center top !important;
+            background-size: cover;
+            background-attachment: local;
+            z-index: -1;
+        }
+
+        .bloque-final {
+            display: flex;
+            background-color: #ff8138;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0.6em;
+            align-items: center;
+            margin-top: 3.7em;
+        }
+
+        #logo-territorium {
+            height: 1.5em;
+            width: auto;
+            margin-right: 2em;
+        }
+
+        .bloque-final__texto-element {
+            color: rgb(255, 255, 255);
+            margin-right: 2em;
+
+        }
+
+        .contenedor-login {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column
+        }
+
+        .contenedor-login__encabezado-texto {
+            margin-top: 4.4em;
+            padding-top: 1em;
+            padding-right: 2.7em;
+            padding-left: 2.7em;
+            padding-bottom: 1em;
+            background-color: #5ABB00;
+            color: white;
+            border-radius: 5px 5px 0px 0px;
+        }
+
+        .contenedor-formulario {
+            color: black;
+            background-color: white;
+            padding-top: 1.40em;
+            padding-right: 1.40em;
+            padding-left: 1em;
+            border-radius: 0px 0px 5px 5px;
+        }
+
+        #caja {
+            width: 86%;
+            padding: 0.5em;
+            margin-left: 1em;
+            margin-right: 1em;
+            margin-bottom: 1em !important;
+            margin-top: 1em;
+        }
+
+        #textocaja {
+            margin-left: 2em;
+            margin-bottom: 0.3em !important;
+            margin-top: 2em !important;
+            font-size: 0.9em;
+        }
+
+        #tipodedocumento {
+            text-align: center !important;
+            margin-bottom: 0.3em;
+            font-size: 0.9em;
+            margin-top: 0 !important;
+        }
+
+        #sectiongeneral {
+            border: 1px solid #C5C5C5;
+            margin-left: 0.6em;
+            margin-bottom: 0.4em;
+        }
+
+        #select {
+            width: 17em;
+            height: 2.5em;
+            border-style: solid;
+            border-color: #E9E9ED;
+            margin-top: 10px;
+            margin-bottom: 1em;
+            margin-right: 1em;
+            margin-left: 1em;
+        }
+
+        #reestablecimiento {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+
+        .ingreso-boton {
+            background-color: #5ABB00;
+            border: 1px solid #5ABB00;
+            color: white;
+            padding-left: 4.5em;
+            padding-right: 4.5em;
+            padding-top: 0.3em;
+            padding-bottom: 0.3em;
+            text-align: center;
+            font-size: 1em;
+            margin-top: 1em;
+            margin-left: 0.7em;
+            border-radius: 7px;
+            font-size: 1.2em;
+        }
+
+        /**/
+        #inicio-lms {
+            color: #ff8138;
+            background-color: rgb(255, 255, 255);
+            padding: 0.3em;
+            border-radius: 4px 0px 0px 4px;
+            float: inline-end;
+            margin-top: 16em;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <!--Contenedor flexible-->
+        <div class="bloque-superior">
+            <div class="bloque-superior__icono-sena">
+                <img id="logotipo-sena" src="https://sena.edu.co/Style%20Library/alayout/images/logoSena.png"
+                    alt="Servicio Nacional de Aprendizaje">
+            </div>
+            <div class="bloque-superior__icono-microsoft">
+                <img id="logotipo-microsoft"
+                    src="https://unaaldia.hispasec.com/wp-content/uploads/2022/03/microsoft-img-1.png" alt="Microsoft">
+            </div>
+        </div>
+        <!--Fin del contenedor flexible-->
+    </header>
+    <div class="bloque-separador">
+    </div>
+    <div class="login-form__fondo-element">
+        <div class="contenedor-lms">
+            <i class="fi fi-rr-users" id="inicio-lms"></i>
+
+        </div>
+        <!--Formulario de ingreso-->
+        <div class="contenedor-login">
+
+            <div class="contenedor-login__encabezado-texto">
+                <p>
+                    <strong>Ingreso </strong>de usuarios registrados
+                </p>
+            </div>
+            <!--Inicio de sesión lms-->
+            <div class="contenedor-formulario">
+                <p id="tipodedocumento">Tipo de documento de identidad</p>
+                <div id="sectiongeneral">
+                    <select name="tipodedocumento" id="select">
+                        <option value="">Cédula de ciudadania</option>
+                        <option value="">Tarjeta de identidad</option>
+                        <option value="" select>Cédula de extranjería</option>
+                        <option value="">Número ciego SENA</option>
+                        <option value="">Pasaporte</option>
+                        <option value="">Documento Nacional de Identificación</option>
+                        <option value="">Número de identificación tributaria</option>
+                        <option value="">PEP</option>
+                        <option value="">PEP-RAMW</option>
+
+                    </select><br>
+                </div>
+                <label id="textocaja">Número de documento:</label><br>
+                <input type="text" name="" id="caja"><br>
+                <label id="textocaja">Contraseña:</label><br>
+                <input type="password" id="caja"><br>
+                <div id="reestablecimiento">
+                    <i class="fi fi-rr-key"><a href="#">¿Olvidé mi contraseña?</a></i><br>
+                    <a href="#">¿Su usuario está bloqueado o inactivo?</a><br>
+                    </di>
+                    <button class="ingreso-boton" onclick="myFuncion()"><strong>Ingresar</strong></button>
+                </div>
+
+
+
+            </div>
+            <!--Fin del formulario de ingreso-->
+        </div>
+        <!--Opciones alternas-->
+
+        <footer>
+            <div class="bloque-final">
+                <div class="bloque-final__imagen-territorim">
+                    <img id="logo-territorium" src="/img/footer-territorium.png" alt="territorium">
+                </div>
+                <div class="bloque-final__texto-element">
+                    <span>Territorium sena 2019 © Todos los derechos reservados</span>
+                </div>
+                <div class="bloque-final__texto-element">
+                    <span>V.1.0.13799
+                    </span>
+                </div>
+            </div>
+        </footer>
+        <script>
+            function myFuncion() {
+                alert('Ingresando a la página principal');
+            }
+        </script>
+</body>
+
+
+</html>
